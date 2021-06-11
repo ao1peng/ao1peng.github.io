@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    vertical-align: middle;
+    display: block;
+}
+html {
+    width: 100%;
+}
+.center {
+    width: 100%;
+    margin: 0 auto;
+}
+.cur {
+    cursor: pointer;
+}
+
+
+/* tou */
+header img {
+    width: 100%;
+}
+
+
+/* di yi hang */
+.sec1 {
+    height: 77px;
+}
+.sec1 img {
+    height: 77px;
+    float: left;
+}
+.sec1 .second01 {
+    width: 61.5%;
+}
+.sec1 .second02 {
+    width: 11%;
+}
+.sec1 .second03 {
+    width: 27.5%;
+}
+
+/* di san hang */
+.sec2 {
+   height: 56px; 
+}
+.sec2 img {
+    height: 56px;
+    float: left;
+}
+.sec2 .thired01 {
+    width: 85%;
+}
+.sec2 .thired02 {
+    width: 15%;
+}
+
+/* di si hang */
+.sec3 {
+    height: 250px;
+}
+.sec3 img {
+    height: 250px;
+    width: 100%;
+}
+
+/* di wu hang */
+.sec4 {
+    height: 88px;
+}
+.sec4 img {
+    height: 88px;
+    float: left;
+}
+.sec4 .fifth01 {
+    width: 61.5%;
+}
+.sec4 .fifth02 {
+    width: 16.5%;
+}
+.sec4 .fifth03 {
+    width: 0.1%;
+}
+.sec4 .fifth04 {
+    width: 12.5%;
+}
+.sec4 .fifth05 {
+    width: 9.4%;
+}
+
+
+/* di liu hang */
+.sec5 {
+    height: 118px;
+}
+.sec5 img {
+    height: 118px;
+    float: left;
+}
+.sec5 .sixth01 {
+    width: 56.78%;
+}
+.sec5 .sixth02 {
+    width: 11.7%;;
+}
+.sec5 .sixth03 {
+    width: 31.5%;
+}
+
+/* di qi hang */
+.sec6 {
+    height: 371px;
+}
+.sec6 img {
+    height: 371px;
+    width: 100%;
+}
+
+/* di ba hang */
+.sec7 {
+    height: 91px;
+}
+.sec7 img {
+    height: 91px;
+    float: left;
+}
+.sec7 .eight01 {
+    width: 16.3%;
+}
+.sec7 .eight02 {
+    width: 9.7%;
+}
+.sec7 .eight03 {
+    width: 35.5%;
+}
+.sec7 .eight04 {
+    width: 13.1%;
+}
+.sec7 .eight05 {
+    width: 25.3%;
+}
+
+/* last */
+.sec8 {
+    height: 200px;
+}
+.sec8 img {
+    height: 200px;
+    width: 100%;
+}
+
+
+
+/* mask */
+ul {
+    list-style: none;
+}
+
+
+/* 01 */
+.mask-epang {
+    width: 100%;
+    height: 1420px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.epang {
+    width: 90%;
+    height: 62%;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.epang ul {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    position: relative;
+}
+.epang ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .2s linear 0s;
+}
+.epang ul li img {
+    width: 95%;
+    margin: 20px auto;
+}
+.epang .posi {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all .2s linear 0s;
+}
+.epang .posi:hover {
+    box-shadow: 0px 0px 10px 1px gray;
+    opacity: 1;
+}
+.epang .close {
+    top: -25px;
+    right: -25px;
+}
+.epang .posi img {
+    width: 50px;
+}
+.epang .last {
+    top: 50%;
+    margin-top: -25px;
+    left: -25px;
+}
+.epang .last img {
+    width: 30px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.epang .next {
+    top: 50%;
+    margin-top: -25px;
+    right: -25px;
+}
+.epang .next img {
+    width: 30px;
+    position: relative;
+    top: 10px;
+    right: -10px;
+}
+
+
+
+/* 02 fusu */
+.mask-fusu {
+    width: 100%;
+    height: 1420px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.fusu {
+    width: 90%;
+    height: 62%;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.fusu ul {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    position: relative;
+}
+.fusu ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .2s linear 0s;
+}
+.fusu ul li img {
+    width: 95%;
+    margin: 20px auto;
+}
+.fusu .posi {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all .2s linear 0s;
+}
+.fusu .posi:hover {
+    box-shadow: 0px 0px 10px 1px gray;
+    opacity: 1;
+}
+.fusu .close {
+    top: -25px;
+    right: -25px;
+}
+.fusu .posi img {
+    width: 50px;
+}
+.fusu .last {
+    top: 50%;
+    margin-top: -25px;
+    left: -25px;
+}
+.fusu .last img {
+    width: 30px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.fusu .next {
+    top: 50%;
+    margin-top: -25px;
+    right: -25px;
+}
+.fusu .next img {
+    width: 30px;
+    position: relative;
+    top: 10px;
+    right: -10px;
+}
+
+
+
+/* 02 royal */
+.mask-royal {
+    width: 100%;
+    height: 1420px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.royal {
+    width: 90%;
+    height: 62%;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.royal ul {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    position: relative;
+}
+.royal ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .2s linear 0s;
+}
+.royal ul li img {
+    width: 95%;
+    margin: 20px auto;
+}
+.royal .posi {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all .2s linear 0s;
+}
+.royal .posi:hover {
+    box-shadow: 0px 0px 10px 1px gray;
+    opacity: 1;
+}
+.royal .close {
+    top: -25px;
+    right: -25px;
+}
+.royal .posi img {
+    width: 50px;
+}
+.royal .last {
+    top: 50%;
+    margin-top: -25px;
+    left: -25px;
+}
+.royal .last img {
+    width: 30px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.royal .next {
+    top: 50%;
+    margin-top: -25px;
+    right: -25px;
+}
+.royal .next img {
+    width: 30px;
+    position: relative;
+    top: 10px;
+    right: -10px;
+}
+
+
+
+/* 02 royal */
+.mask-corner {
+    width: 100%;
+    height: 1420px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.corner {
+    width: 90%;
+    height: 62%;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.corner ul {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    position: relative;
+}
+.corner ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .2s linear 0s;
+}
+.corner ul li img {
+    width: 95%;
+    margin: 20px auto;
+}
+.corner .posi {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all .2s linear 0s;
+}
+.corner .posi:hover {
+    box-shadow: 0px 0px 10px 1px gray;
+    opacity: 1;
+}
+.corner .close {
+    top: -25px;
+    right: -25px;
+}
+.corner .posi img {
+    width: 50px;
+}
+.corner .last {
+    top: 50%;
+    margin-top: -25px;
+    left: -25px;
+}
+.corner .last img {
+    width: 30px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.corner .next {
+    top: 50%;
+    margin-top: -25px;
+    right: -25px;
+}
+.corner .next img {
+    width: 30px;
+    position: relative;
+    top: 10px;
+    right: -10px;
+}
+
+
+
+/* imperial */
+.mask-imperial {
+    width: 100%;
+    height: 1420px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.imperial {
+    width: 90%;
+    height: 62%;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.imperial ul {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    position: relative;
+}
+.imperial ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .2s linear 0s;
+}
+.imperial ul li img {
+    width: 95%;
+    margin: 20px auto;
+}
+.imperial .posi {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all .2s linear 0s;
+}
+.imperial .posi:hover {
+    box-shadow: 0px 0px 10px 1px gray;
+    opacity: 1;
+}
+.imperial .close {
+    top: -25px;
+    right: -25px;
+}
+.imperial .posi img {
+    width: 50px;
+}
+.imperial .last {
+    top: 50%;
+    margin-top: -25px;
+    left: -25px;
+}
+.imperial .last img {
+    width: 30px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.imperial .next {
+    top: 50%;
+    margin-top: -25px;
+    right: -25px;
+}
+.imperial .next img {
+    width: 30px;
+    position: relative;
+    top: 10px;
+    right: -10px;
+}
+
+
+
+/* tree */
+.mask-tree {
+    width: 100%;
+    height: 1420px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.tree {
+    width: 90%;
+    height: 62%;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.tree ul {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    position: relative;
+}
+.tree ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .2s linear 0s;
+}
+.tree ul li img {
+    width: 95%;
+    margin: 20px auto;
+}
+.tree .posi {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all .2s linear 0s;
+}
+.tree .posi:hover {
+    box-shadow: 0px 0px 10px 1px gray;
+    opacity: 1;
+}
+.tree .close {
+    top: -25px;
+    right: -25px;
+}
+.tree .posi img {
+    width: 50px;
+}
+.tree .last {
+    top: 50%;
+    margin-top: -25px;
+    left: -25px;
+}
+.tree .last img {
+    width: 30px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.tree .next {
+    top: 50%;
+    margin-top: -25px;
+    right: -25px;
+}
+.tree .next img {
+    width: 30px;
+    position: relative;
+    top: 10px;
+    right: -10px;
+}
